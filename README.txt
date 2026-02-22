@@ -1,0 +1,1 @@
+Thomas Training PWA v6 – Features D+E (Suche, Icons, Tabs, Einstellungen)
