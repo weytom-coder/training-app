@@ -33,14 +33,16 @@ document.addEventListener('DOMContentLoaded',()=>{
 <header class=header><h1 id=title>Übung</h1><a class="btn ghost" href="settings.html">⚙️</a></header>
 <main class=container>
   <div class=card><div id=meta class=row></div></div>
-  <div class=tabs>
-    <div class=tab active>Wie</div>
-    <div class=tab>Atmung</div>
-    <div class=tab>Tipps</div>
-  </div>
-  <div class=card panel><ul id=wie class=list></ul></div>
-  <div class=card panel hidden><ul id=atmung class=list></ul></div>
-  <div class=card panel hidden><ul id=tipps class=list></ul></div>
+<div class="tabs" role="tablist">
+  <button class="tab active" role="tab" aria-selected="true">Wie</button>
+  <button class="tab" role="tab" aria-selected="false">Atmung</button>
+  <button class="tab" role="tab" aria-selected="false">Tipps</button>
+</div>
+
+<div class="card panel" role="tabpanel" aria-hidden="false"><ul id="wie" class="list"></ul></div>
+<div class="card panel hidden" role="tabpanel" aria-hidden="true"><ul id="atmung" class="list"></ul></div>
+<div class="card panel hidden" role="tabpanel" aria-hidden="true"><ul id="tipps" class="list"></ul></
+
   <div id=rt class=card></div>
   <p><a class=link href=training.html>← Zurück</a></p>
 </main>
