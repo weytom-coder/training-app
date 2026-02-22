@@ -18,6 +18,10 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-a
 .badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 8px;color:#9fdce4}
 .link{color:var(--accent)}
 .input{width:100%;padding:10px;border-radius:8px;border:1px solid #333;background:#111;color:#eee}
+
+button.tab { background: transparent; color: inherit; }
+button.tab:focus { outline: 2px solid var(--accent); outline-offse
+
 .tabs{display:flex;gap:8px;margin:8px 0}
 .tab{padding:8px 10px;border-radius:8px;border:1px solid var(--line);cursor:pointer}
 .tab.active{background:#0f2e31;border-color:var(--accent);color:#9ff6ff}
