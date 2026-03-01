@@ -20,4 +20,8 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-a
 .tab.active{background:#0f2e31;border-color:var(--accent);color:#9ff6ff}
 .hidden{display:none}
 .icon{font-size:1.1rem;margin-right:6px}
+.eximg{width:100%;max-height:260px;object-fit:contain;background:#0b0b0b;border:1px solid var(--line);border-radius:12px}
+.thumb{width:56px;height:56px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.item{display:flex;gap:10px;align-items:center}
+.item label{flex:1}
 :root.light{--bg:#f7f7f9;--fg:#111;--muted:#666;--card:#ffffff;--line:#dcdcdc;--accent:#0066cc}

@@ -7,28 +7,8 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "icons/icon_40.png",
-      "sizes": "40x40",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon_60.png",
-      "sizes": "60x60",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon_120.png",
-      "sizes": "120x120",
-      "type": "image/png"
-    },
-    {
       "src": "icons/icon_180.png",
       "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon_1024.png",
-      "sizes": "1024x1024",
       "type": "image/png"
     }
   ]
